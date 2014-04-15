@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43344ABF18FD448F00E11024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43344ABE18FD448F00E11024 /* Foundation.framework */; };
+		43344AC118FD448F00E11024 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43344AC018FD448F00E11024 /* CoreGraphics.framework */; };
+		43344AC318FD448F00E11024 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43344AC218FD448F00E11024 /* UIKit.framework */; };
+		43344AC918FD448F00E11024 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43344AC718FD448F00E11024 /* InfoPlist.strings */; };
+		43344ACB18FD448F00E11024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43344ACA18FD448F00E11024 /* main.m */; };
+		43344ACF18FD448F00E11024 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43344ACE18FD448F00E11024 /* AppDelegate.m */; };
+		43344AD218FD448F00E11024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43344AD018FD448F00E11024 /* Main.storyboard */; };
+		43344AD518FD448F00E11024 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43344AD418FD448F00E11024 /* ViewController.m */; };
+		43344AD718FD448F00E11024 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43344AD618FD448F00E11024 /* Images.xcassets */; };
+		43344ADE18FD448F00E11024 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43344ADD18FD448F00E11024 /* XCTest.framework */; };
+		43344ADF18FD448F00E11024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43344ABE18FD448F00E11024 /* Foundation.framework */; };
+		43344AE018FD448F00E11024 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43344AC218FD448F00E11024 /* UIKit.framework */; };
+		43344AE818FD448F00E11024 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43344AE618FD448F00E11024 /* InfoPlist.strings */; };
+		43344AEA18FD448F00E11024 /* PolaticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43344AE918FD448F00E11024 /* PolaticTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43344AE118FD448F00E11024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43344AB318FD448E00E11024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43344ABA18FD448E00E11024;
+			remoteInfo = Polatic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43344ABB18FD448F00E11024 /* Polatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43344ABE18FD448F00E11024 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43344AC018FD448F00E11024 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43344AC218FD448F00E11024 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		43344AC618FD448F00E11024 /* Polatic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Polatic-Info.plist"; sourceTree = "<group>"; };
+		43344AC818FD448F00E11024 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43344ACA18FD448F00E11024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43344ACC18FD448F00E11024 /* Polatic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Polatic-Prefix.pch"; sourceTree = "<group>"; };
+		43344ACD18FD448F00E11024 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43344ACE18FD448F00E11024 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43344AD118FD448F00E11024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43344AD318FD448F00E11024 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43344AD418FD448F00E11024 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43344AD618FD448F00E11024 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43344ADC18FD448F00E11024 /* PolaticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolaticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43344ADD18FD448F00E11024 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		43344AE518FD448F00E11024 /* PolaticTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PolaticTests-Info.plist"; sourceTree = "<group>"; };
+		43344AE718FD448F00E11024 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43344AE918FD448F00E11024 /* PolaticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolaticTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43344AB818FD448E00E11024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43344AC118FD448F00E11024 /* CoreGraphics.framework in Frameworks */,
+				43344AC318FD448F00E11024 /* UIKit.framework in Frameworks */,
+				43344ABF18FD448F00E11024 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43344AD918FD448F00E11024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43344ADE18FD448F00E11024 /* XCTest.framework in Frameworks */,
+				43344AE018FD448F00E11024 /* UIKit.framework in Frameworks */,
+				43344ADF18FD448F00E11024 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43344AB218FD448E00E11024 = {
+			isa = PBXGroup;
+			children = (
+				43344AC418FD448F00E11024 /* Polatic */,
+				43344AE318FD448F00E11024 /* PolaticTests */,
+				43344ABD18FD448F00E11024 /* Frameworks */,
+				43344ABC18FD448F00E11024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43344ABC18FD448F00E11024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43344ABB18FD448F00E11024 /* Polatic.app */,
+				43344ADC18FD448F00E11024 /* PolaticTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43344ABD18FD448F00E11024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43344ABE18FD448F00E11024 /* Foundation.framework */,
+				43344AC018FD448F00E11024 /* CoreGraphics.framework */,
+				43344AC218FD448F00E11024 /* UIKit.framework */,
+				43344ADD18FD448F00E11024 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43344AC418FD448F00E11024 /* Polatic */ = {
+			isa = PBXGroup;
+			children = (
+				43344ACD18FD448F00E11024 /* AppDelegate.h */,
+				43344ACE18FD448F00E11024 /* AppDelegate.m */,
+				43344AD018FD448F00E11024 /* Main.storyboard */,
+				43344AD318FD448F00E11024 /* ViewController.h */,
+				43344AD418FD448F00E11024 /* ViewController.m */,
+				43344AD618FD448F00E11024 /* Images.xcassets */,
+				43344AC518FD448F00E11024 /* Supporting Files */,
+			);
+			path = Polatic;
+			sourceTree = "<group>";
+		};
+		43344AC518FD448F00E11024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43344AC618FD448F00E11024 /* Polatic-Info.plist */,
+				43344AC718FD448F00E11024 /* InfoPlist.strings */,
+				43344ACA18FD448F00E11024 /* main.m */,
+				43344ACC18FD448F00E11024 /* Polatic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43344AE318FD448F00E11024 /* PolaticTests */ = {
+			isa = PBXGroup;
+			children = (
+				43344AE918FD448F00E11024 /* PolaticTests.m */,
+				43344AE418FD448F00E11024 /* Supporting Files */,
+			);
+			path = PolaticTests;
+			sourceTree = "<group>";
+		};
+		43344AE418FD448F00E11024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43344AE518FD448F00E11024 /* PolaticTests-Info.plist */,
+				43344AE618FD448F00E11024 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43344ABA18FD448E00E11024 /* Polatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43344AED18FD448F00E11024 /* Build configuration list for PBXNativeTarget "Polatic" */;
+			buildPhases = (
+				43344AB718FD448E00E11024 /* Sources */,
+				43344AB818FD448E00E11024 /* Frameworks */,
+				43344AB918FD448E00E11024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polatic;
+			productName = Polatic;
+			productReference = 43344ABB18FD448F00E11024 /* Polatic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43344ADB18FD448F00E11024 /* PolaticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43344AF018FD448F00E11024 /* Build configuration list for PBXNativeTarget "PolaticTests" */;
+			buildPhases = (
+				43344AD818FD448F00E11024 /* Sources */,
+				43344AD918FD448F00E11024 /* Frameworks */,
+				43344ADA18FD448F00E11024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43344AE218FD448F00E11024 /* PBXTargetDependency */,
+			);
+			name = PolaticTests;
+			productName = PolaticTests;
+			productReference = 43344ADC18FD448F00E11024 /* PolaticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43344AB318FD448E00E11024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = polatic;
+				TargetAttributes = {
+					43344ADB18FD448F00E11024 = {
+						TestTargetID = 43344ABA18FD448E00E11024;
+					};
+				};
+			};
+			buildConfigurationList = 43344AB618FD448E00E11024 /* Build configuration list for PBXProject "Polatic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43344AB218FD448E00E11024;
+			productRefGroup = 43344ABC18FD448F00E11024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43344ABA18FD448E00E11024 /* Polatic */,
+				43344ADB18FD448F00E11024 /* PolaticTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43344AB918FD448E00E11024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43344AD718FD448F00E11024 /* Images.xcassets in Resources */,
+				43344AC918FD448F00E11024 /* InfoPlist.strings in Resources */,
+				43344AD218FD448F00E11024 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43344ADA18FD448F00E11024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43344AE818FD448F00E11024 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43344AB718FD448E00E11024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43344AD518FD448F00E11024 /* ViewController.m in Sources */,
+				43344ACF18FD448F00E11024 /* AppDelegate.m in Sources */,
+				43344ACB18FD448F00E11024 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43344AD818FD448F00E11024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43344AEA18FD448F00E11024 /* PolaticTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43344AE218FD448F00E11024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43344ABA18FD448E00E11024 /* Polatic */;
+			targetProxy = 43344AE118FD448F00E11024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43344AC718FD448F00E11024 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43344AC818FD448F00E11024 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43344AD018FD448F00E11024 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43344AD118FD448F00E11024 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43344AE618FD448F00E11024 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43344AE718FD448F00E11024 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43344AEB18FD448F00E11024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43344AEC18FD448F00E11024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43344AEE18FD448F00E11024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polatic/Polatic-Prefix.pch";
+				INFOPLIST_FILE = "Polatic/Polatic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43344AEF18FD448F00E11024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polatic/Polatic-Prefix.pch";
+				INFOPLIST_FILE = "Polatic/Polatic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		43344AF118FD448F00E11024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Polatic.app/Polatic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polatic/Polatic-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PolaticTests/PolaticTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		43344AF218FD448F00E11024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Polatic.app/Polatic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polatic/Polatic-Prefix.pch";
+				INFOPLIST_FILE = "PolaticTests/PolaticTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43344AB618FD448E00E11024 /* Build configuration list for PBXProject "Polatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43344AEB18FD448F00E11024 /* Debug */,
+				43344AEC18FD448F00E11024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43344AED18FD448F00E11024 /* Build configuration list for PBXNativeTarget "Polatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43344AEE18FD448F00E11024 /* Debug */,
+				43344AEF18FD448F00E11024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43344AF018FD448F00E11024 /* Build configuration list for PBXNativeTarget "PolaticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43344AF118FD448F00E11024 /* Debug */,
+				43344AF218FD448F00E11024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43344AB318FD448E00E11024 /* Project object */;
+}
