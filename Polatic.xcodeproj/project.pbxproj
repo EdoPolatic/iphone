@@ -21,6 +21,7 @@
 		43344AE018FD448F00E11024 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43344AC218FD448F00E11024 /* UIKit.framework */; };
 		43344AE818FD448F00E11024 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43344AE618FD448F00E11024 /* InfoPlist.strings */; };
 		43344AEA18FD448F00E11024 /* PolaticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43344AE918FD448F00E11024 /* PolaticTests.m */; };
+		43344AF418FD44E400E11024 /* logo Polatic.png in Resources */ = {isa = PBXBuildFile; fileRef = 43344AF318FD44E400E11024 /* logo Polatic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		43344AE518FD448F00E11024 /* PolaticTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PolaticTests-Info.plist"; sourceTree = "<group>"; };
 		43344AE718FD448F00E11024 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43344AE918FD448F00E11024 /* PolaticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolaticTests.m; sourceTree = "<group>"; };
+		43344AF318FD44E400E11024 /* logo Polatic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo Polatic.png"; path = "../../Downloads/logo Polatic.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		43344AC518FD448F00E11024 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				43344AF318FD44E400E11024 /* logo Polatic.png */,
 				43344AC618FD448F00E11024 /* Polatic-Info.plist */,
 				43344AC718FD448F00E11024 /* InfoPlist.strings */,
 				43344ACA18FD448F00E11024 /* main.m */,
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43344AF418FD44E400E11024 /* logo Polatic.png in Resources */,
 				43344AD718FD448F00E11024 /* Images.xcassets in Resources */,
 				43344AC918FD448F00E11024 /* InfoPlist.strings in Resources */,
 				43344AD218FD448F00E11024 /* Main.storyboard in Resources */,
