@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430FEC7E1918F31900C69169 /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 430FEC7D1918F31900C69169 /* TableCell.m */; };
+		430FEC881918F53400C69169 /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 430FEC871918F53400C69169 /* TableCell.xib */; };
+		43258A731906811F00ACA237 /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43258A721906811F00ACA237 /* EmailViewController.m */; };
+		43258A7519068F4A00ACA237 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43258A7419068F4A00ACA237 /* MessageUI.framework */; };
 		43344ABF18FD448F00E11024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43344ABE18FD448F00E11024 /* Foundation.framework */; };
 		43344AC118FD448F00E11024 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43344AC018FD448F00E11024 /* CoreGraphics.framework */; };
 		43344AC318FD448F00E11024 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43344AC218FD448F00E11024 /* UIKit.framework */; };
@@ -21,7 +25,7 @@
 		43344AE018FD448F00E11024 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43344AC218FD448F00E11024 /* UIKit.framework */; };
 		43344AE818FD448F00E11024 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43344AE618FD448F00E11024 /* InfoPlist.strings */; };
 		43344AEA18FD448F00E11024 /* PolaticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43344AE918FD448F00E11024 /* PolaticTests.m */; };
-		43344AF418FD44E400E11024 /* logo Polatic.png in Resources */ = {isa = PBXBuildFile; fileRef = 43344AF318FD44E400E11024 /* logo Polatic.png */; };
+		4339D8BA1910F8F400C5D319 /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4339D8B91910F8F400C5D319 /* ProductsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		430FEC7C1918F31900C69169 /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableCell.h; path = ../TableCell.h; sourceTree = "<group>"; };
+		430FEC7D1918F31900C69169 /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableCell.m; path = ../TableCell.m; sourceTree = "<group>"; };
+		430FEC871918F53400C69169 /* TableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableCell.xib; path = ../TableCell.xib; sourceTree = "<group>"; };
+		43258A711906811F00ACA237 /* EmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		43258A721906811F00ACA237 /* EmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
+		43258A7419068F4A00ACA237 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		43344ABB18FD448F00E11024 /* Polatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43344ABE18FD448F00E11024 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		43344AC018FD448F00E11024 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,7 +64,8 @@
 		43344AE518FD448F00E11024 /* PolaticTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PolaticTests-Info.plist"; sourceTree = "<group>"; };
 		43344AE718FD448F00E11024 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43344AE918FD448F00E11024 /* PolaticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolaticTests.m; sourceTree = "<group>"; };
-		43344AF318FD44E400E11024 /* logo Polatic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo Polatic.png"; path = "../../Downloads/logo Polatic.png"; sourceTree = "<group>"; };
+		4339D8B81910F8F400C5D319 /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
+		4339D8B91910F8F400C5D319 /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43258A7519068F4A00ACA237 /* MessageUI.framework in Frameworks */,
 				43344AC118FD448F00E11024 /* CoreGraphics.framework in Frameworks */,
 				43344AC318FD448F00E11024 /* UIKit.framework in Frameworks */,
 				43344ABF18FD448F00E11024 /* Foundation.framework in Frameworks */,
@@ -103,6 +115,7 @@
 		43344ABD18FD448F00E11024 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43258A7419068F4A00ACA237 /* MessageUI.framework */,
 				43344ABE18FD448F00E11024 /* Foundation.framework */,
 				43344AC018FD448F00E11024 /* CoreGraphics.framework */,
 				43344AC218FD448F00E11024 /* UIKit.framework */,
@@ -114,11 +127,18 @@
 		43344AC418FD448F00E11024 /* Polatic */ = {
 			isa = PBXGroup;
 			children = (
+				43344AD018FD448F00E11024 /* Main.storyboard */,
 				43344ACD18FD448F00E11024 /* AppDelegate.h */,
 				43344ACE18FD448F00E11024 /* AppDelegate.m */,
-				43344AD018FD448F00E11024 /* Main.storyboard */,
 				43344AD318FD448F00E11024 /* ViewController.h */,
 				43344AD418FD448F00E11024 /* ViewController.m */,
+				43258A711906811F00ACA237 /* EmailViewController.h */,
+				43258A721906811F00ACA237 /* EmailViewController.m */,
+				4339D8B81910F8F400C5D319 /* ProductsViewController.h */,
+				4339D8B91910F8F400C5D319 /* ProductsViewController.m */,
+				430FEC7C1918F31900C69169 /* TableCell.h */,
+				430FEC7D1918F31900C69169 /* TableCell.m */,
+				430FEC871918F53400C69169 /* TableCell.xib */,
 				43344AD618FD448F00E11024 /* Images.xcassets */,
 				43344AC518FD448F00E11024 /* Supporting Files */,
 			);
@@ -128,7 +148,6 @@
 		43344AC518FD448F00E11024 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				43344AF318FD44E400E11024 /* logo Polatic.png */,
 				43344AC618FD448F00E11024 /* Polatic-Info.plist */,
 				43344AC718FD448F00E11024 /* InfoPlist.strings */,
 				43344ACA18FD448F00E11024 /* main.m */,
@@ -231,7 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43344AF418FD44E400E11024 /* logo Polatic.png in Resources */,
+				430FEC881918F53400C69169 /* TableCell.xib in Resources */,
 				43344AD718FD448F00E11024 /* Images.xcassets in Resources */,
 				43344AC918FD448F00E11024 /* InfoPlist.strings in Resources */,
 				43344AD218FD448F00E11024 /* Main.storyboard in Resources */,
@@ -253,9 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430FEC7E1918F31900C69169 /* TableCell.m in Sources */,
+				4339D8BA1910F8F400C5D319 /* ProductsViewController.m in Sources */,
 				43344AD518FD448F00E11024 /* ViewController.m in Sources */,
 				43344ACF18FD448F00E11024 /* AppDelegate.m in Sources */,
 				43344ACB18FD448F00E11024 /* main.m in Sources */,
+				43258A731906811F00ACA237 /* EmailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +407,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Polatic/Polatic-Prefix.pch";
 				INFOPLIST_FILE = "Polatic/Polatic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,6 +421,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Polatic/Polatic-Prefix.pch";
 				INFOPLIST_FILE = "Polatic/Polatic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -464,6 +488,7 @@
 				43344AEF18FD448F00E11024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43344AF018FD448F00E11024 /* Build configuration list for PBXNativeTarget "PolaticTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +497,7 @@
 				43344AF218FD448F00E11024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
